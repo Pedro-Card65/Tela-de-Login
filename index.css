@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.623);
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.login {
+    display: flex;
+    background-color: rgb(255, 31, 31);
+
+    height: 280px;
+    width: 420px;
+
+    border: 2px solid black;
+    border-radius: 25px ;
+}
+
+.logo {
+    display: flex;
+    width: 40%;
+
+    background-color: white;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    width: 130px;
+}
+
+.dados {
+    display: flex;
+    flex-direction: column;
+
+
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+
+.dados p {
+    margin-top: 5px;
+}
+
+.dados input {
+    margin: 5px 0;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.dados button {
+    width: 100px;
+    height: 40px;
+
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 25px;
+    margin-top: 10px;
+}
+
+.dados button:hover {
+    padding: 10px;
+    cursor: pointer
+}
